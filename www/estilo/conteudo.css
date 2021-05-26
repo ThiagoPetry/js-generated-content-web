@@ -1,0 +1,546 @@
+/* CSS da Roleta até o Newsletter. */
+
+/* ====== SEÇÃO 1 ====== */
+#mostraInfo > .container-info-title > h1::after {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-top: 55px;
+	position: absolute;
+	background-color: #64C3D5;
+}
+#mostraInfo > .container-info-title > h1::after {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 48px;
+	padding-right: 8px;
+	margin-left: -258px;
+}
+#container_info {
+	background-color: #f7f7f7; 
+	width: 100%;
+	height: 410px;
+	margin-bottom: 20px;
+}
+.container-info-central {
+	width: 80%;
+	height: 410px;
+	margin: 0 auto;
+}
+.info {
+	width: 45%;
+	height: 390px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 5%;
+}
+.container-info-title {
+	width: 80%;
+	height: 180px;
+	float: left;
+	color: #00579D;
+	font-size: 1.625em;
+}
+.container-info-text {
+	width: 100%;
+	height: 90px;
+	float: left;
+	line-height: 1.4em;
+}
+.container-info-button {
+	background-color: #0091BD;
+	width: 300px;
+	height: 48px;
+	float: left;
+	margin-top: 15px;
+	font-size: 0.8em;
+}
+.container-info-button:hover {
+	background-color: #006d8f;
+	cursor: pointer;
+}
+.container-info-button a {
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.info-img {
+	width: 45%;
+	height: 390px;
+	background-image: url(../img/infographic-img-link.png);
+	position: relative;
+	background-position: center;
+	float: right;
+	margin-top: 10px;
+}
+
+/* ====== SEÇÃO 2 ====== */
+#info-video > .info-video-text > h1::after {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-top: 40px;
+	position: absolute;
+	background-color: #64C3D5;
+}
+#info-video > .info-video-text > h1::after {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 48px;
+	padding-right: 8px;
+	margin-left: -1070px;
+}
+#seguraInfoVideo {
+	width: 100%;
+	height: 540px;
+}
+#info-video {
+	width: 80%;
+	height: 540px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;		
+}
+.info-video-text {
+	width: 1140px;
+	height: 60px;
+	float: left;
+	margin-left: 3%;
+	text-align: center;
+	color: #00579D;
+	font-size: 1.125em;
+}
+.info-video-text h1 {
+	float: left;
+}
+#frame-video {
+	width: 94%;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 3%;
+}
+
+/* ====== SEÇÃO 3 ====== */
+#title-solucoes > h1::after {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-top: 60px;
+	position: absolute;
+	background-color: #64C3D5;
+}
+#title-solucoes > h1::after {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 48px;
+	padding-right: 8px;
+	margin-left: -140px;
+}
+#seguraSolucoes {
+	width: 100%;
+	height: 550px;
+}
+#solucoes {
+	width: 80%;
+	height: 550px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#solucoes a {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #595959;
+}
+#solucoes a:hover {
+	background-color: #006d8f;
+	color: white;
+}
+.container-solucoes {
+	width: 45%;
+	height: 500px;
+	float: left;
+	margin: 10px 40px;
+}
+.info-solucoes-text {
+	width: 80%;
+	float: left;
+	margin: 10px 0px;
+	color: #00579D;
+	font-size: 1.375em;
+}
+.lista_1 {
+	width: 50%;
+	height: 320px;
+	float: left;
+}
+.lista_1 ul li {
+	width: 100%;
+	margin: 8px 4px;
+	display: inline; 
+	float: left;
+	display: inline-block;
+    text-decoration: none;
+}	
+.lista_2 {
+	width: 50%;
+	height: 320px;
+	float: left;
+}
+.lista_2 ul li {
+	width: 100%;
+	margin: 8px 4px;
+	display: inline; 
+	float: left;
+	display: inline-block;
+    text-decoration: none;
+	display: inline; 
+}
+.info-solucoes-img {
+	background-image: url(../img/eficiencia_energetica_home-new.jpg);
+	width: 45%;
+	height: 360px;
+	margin: 40px 10px;
+	float: right;
+	margin-right: 30px;
+	color: white;
+}
+.solucoes-img {
+	background-color: rgba(0, 19, 35, 0.8);
+	width: 100%;
+	height: 150px;
+	float: left;
+	margin-top: 210px;
+}
+.solucoes-img h1 {
+	margin-left: 12px;
+}
+.solucoes-img p {
+	float: left;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+#info-scan > .motor-text > h1::after {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-top: 60px;
+	position: absolute;
+	background-color: #64C3D5;
+}
+
+/* ====== SEÇÃO 4 ====== */
+#info-scan > .motor-text > h1::after {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 48px;
+	padding-right: 8px;
+	margin-left: -580px;
+}
+#info-scan {
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}		
+.motor-text {
+	width: 95%;
+	height: 120px;
+	margin: 10px;
+	float: left;
+	margin-left: 40px;
+	color: #00579D;
+	font-size: 1.5em;
+}
+.motor-btn {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+}
+.button-motor {
+	background-color: #0091BD;
+	width: 202px;
+	height: 48px;
+	border: 0px;
+	color: white;
+	margin-top: 15px;
+}
+.button-motor:hover {
+	background-color: #006d8f;
+	cursor: pointer;
+}
+
+/* ====== SEÇÃO 5 ====== */
+#seguraPayMotor {
+	width: 100%;
+	height: 1400px;
+	background-color: #f7f7f7;
+}
+#payback > .text-payback > h1::after {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-top: 60px;
+	position: absolute;
+	background-color: #64C3D5;
+}
+#payback > .text-payback > h1::after {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 48px;
+	padding-right: 8px;
+	margin-left: -245px;
+}
+#payback {
+	width: 80%;
+	height: 600px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}		
+.text-payback {
+	width: 80%;
+	height: 100px;
+	text-align: left;
+	margin: 10px 40px;
+	float: left;
+	color: #00579D;
+	font-size: 1.5em;
+}
+.img-payback {
+	width: 94%;
+	height: 450px;
+	background-image: url(../img/payback.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin: 0px 40px;
+	overflow: hidden;
+}
+.text-img-payback {
+	width: 40%;
+	height: 450px;
+	background-color: rgba(0, 19, 35, 0.7);
+	color: white;
+	float: left;
+	margin-left: -60px;
+	transform: skew(-15deg); 
+}
+.text-img-payback h1 {
+	width: 	75%;
+	text-align: left;
+	font-size: 24px;
+	margin: 25px 50px;
+	transform: skew(15deg); 
+}
+.buttons-payback { 
+	width: 20%;
+	height: 450px;
+	background-color: rgba(0, 19, 35, 0.8);
+	float: right;
+	margin-right: -60px;
+	text-align: center;
+	transform: skew(-15deg); 
+}
+.buttons-payback input { 
+	text-transform: uppercase;
+	font-size: 1.125em;
+	color: white;
+	transform: skew(15deg); 
+}
+.ios {
+	width: 60px;
+	height: 40px;
+	float: right;
+	margin-top: 320px;
+	margin-right: 48px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+.android {
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 370px;
+	margin-right: -74px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+/* ====== SEÇÃO 6 ====== */
+#motor-eletrico > .text-eletrico > h1::after {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-top: 50px;
+	position: absolute;
+	background-color: #64C3D5;
+}
+#motor-eletrico > .text-eletrico > h1::after {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 48px;
+	padding-right: 8px;
+	margin-left: -155px;
+}
+#motor-eletrico {
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}	
+.text-eletrico { 
+	width: 94%;
+	height: 120px;
+	float: left;
+	margin: 10px 40px;
+	color: #00579D;
+	font-size: 1.5em;		
+}
+.img-eletrico {
+	width: 94%;
+	height: 500px;
+	background-image: url(../img/see-_novo_site.jpg);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin: 10px 40px;		
+	overflow: hidden;
+}
+.text-img-motor_ele { 
+	width: 40%;
+	height: 500px;
+	background-color: rgba(0, 19, 35, 0.8);
+	color: white;
+	float: left;
+	margin-left: -65px;
+	transform: skew(-15deg); 
+}
+.text-img-motor_ele h1 { 
+	width: 86%;
+	text-align: left;
+	font-size: 1.6em;
+	margin: 25px 40px;
+	transform: skew(15deg); 
+}
+.button-motor_ele {
+	width: 20%;
+	height: 500px;
+	background-color: rgba(0, 19, 35, 0.8);
+	float: right;
+	margin-right: -65px;
+	text-align: center;
+	transform: skew(-15deg); 
+}
+.button-motor_ele input {
+	text-transform: uppercase;
+	font-size: 1em;
+	color: white;
+	transform: skew(15deg); 
+}
+.saibamais {
+	width: 130px;
+	line-height: 35px;
+	background-color: transparent;
+	border: 2px solid white;
+	float: right;
+	margin-top: 420px;
+	margin-right: 40px;
+}
+
+/* ====== SEÇÃO 7 ====== */
+#novTiE > h1::after {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	margin-top: 50px;
+	position: absolute;
+	background-color: #64C3D5;
+}
+#novTiE > h1::after {
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 48px;
+	padding-right: 8px;
+	margin-left: -370px;
+}
+#novidades {
+	width: 80%;
+	height: 560px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#novidades h1 {
+	font-size: 30px;
+}
+.nov-left {
+	width: 70%;
+	height: 470px;
+	margin: 20px;
+	float: left;
+}
+.text-novidades {
+	width: 50%;
+	height: 80px;
+	margin: 10px 20px;
+	float: left;
+	color: #00579D;
+}
+.img-novidades {
+	width: 95%;
+	height: 400px;
+	float: left;
+	margin: 10px 20px;
+	text-align: center;
+	background-color: rgba(0, 19, 35, 0.2);
+	border: 1px solid #ccc;
+}
+.img-lata {
+	width: 100%;
+	height: 400px;
+	float: left;
+	background-image: url(../img/9390886387742.png);
+	background-position: center;
+}
+.container-tinta {
+	background-color: rgba(0, 19, 35, 0.8);
+	width: 100%;
+	height: 140px;
+	float: left;
+	margin-top: 260px;
+	color: white;
+}
+.nov-right {
+	width: 25%;
+	height: 470px;
+	margin: 75px 0px;
+	float: left;
+}
+.text-top {
+	background-color: rgba(0, 19, 35, 0.1);
+	width: 95%;
+	height: 210px;
+	float: right;
+	margin: 8px;
+	border: 1px solid #ccc;
+}
+.text-noticia {
+	margin: 5px;
+	color: #00579D;
+}
+.text-bottom {
+	background-color: rgba(0, 19, 35, 0.1);
+	width: 95%;
+	height: 220px;
+	margin: 10px;
+	float: right;
+	border: 1px solid #ccc;
+/* ====== FIM ====== */

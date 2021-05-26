@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage | WEG</title> <!-- Versão 5 -->
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png" />
+	<link rel="stylesheet" type="text/css" href="estilo/menu.css">
+	<link rel="stylesheet" type="text/css" href="estilo/conteudo.css">
+	<link rel="stylesheet" type="text/css" href="estilo/rodape.css">
+	<script src="js/conteudoSite.js"></script> 
+	<script src="js/interacaoRoleta.js"></script>
+	<script src="js/interacaoBanner.js"></script> 
+</head>
+<body>
+	<div id="container-menu">
+		<div class="menu-left">
+			<div class="menuE">
+				<nav>
+					<div class="logo"></div>
+					<ul id="menuEsq"></ul>
+				</nav>
+			</div>	
+		</div>
+		<div class="menu-right">
+			<div class="menuD">
+				<nav>
+					<a class="right" href="#"><div class="flag-right"></div></a>
+					<ul id="menuDir"></ul>
+				</nav>
+			</div>
+			<div class="share">
+				<input type="text" name="share" placeholder="Buscar por produto, categoria ou código">
+				<button>🔎</button>
+			</div>
+		</div>
+	</div>
+	<section>
+		<div id="seguraBanner">
+			<div id="bannerweg1" class="banners"></div>
+			<div id="bannerweg2" class="banners"></div>
+			<div id="bannerweg3" class="banners"></div>
+			<div id="bannerweg4" class="banners"></div>
+			<div id="bannerweg5" class="banners"></div>
+			<div id="bannerweg6" class="banners"></div>
+			<div id="bannerweg7" class="banners"></div>
+			<div id="bannerweg8" class="banners"></div>
+		</div>
+		<div id="banner-btn">
+		<div id="trocaBanner" class="container-btns"></div>
+	</section>
+	<section>
+		<div id="menu-produtos">
+			<input type="button" id="btnE" value="<" name="11" onclick="esquerda()">
+				<div id="roleta" class="content"></div>
+			<input type="button" id="btnD" value=">" name="5" onclick="direita()">
+		</div>
+	</section>
+	<section>
+		<div id="container_info">
+			<div class="container-info-central">
+				<div id="mostraInfo" class="info"></div>
+				<div class="info-img"></div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div id="seguraInfoVideo">
+			<div id="info-video"></div>
+		</div>
+	</section>
+	<section>
+		<div id="seguraSolucoes">
+			<div id="solucoes">
+				<div class="container-solucoes">
+					<div id="title-solucoes" class="info-solucoes-text">
+					<!--<h1>Conheça nossas áreas de soluções</h1>-->
+					</div>
+					<div class="lista_1">
+						<ul id="lone"></ul>
+					</div>
+					<div class="lista_2">
+						<ul id="ltwo"></ul>
+					</div>
+				</div>
+				<div id="img-solucoes" class="info-solucoes-img"></div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div id="info-scan"></div>
+	</section>
+	<section>
+	<div id="seguraPayMotor">
+		<div id="payback">
+			<div id="paybackI" class="img-payback"></div>
+		</div>
+		<div id="motor-eletrico"></div>
+	</section>
+	</div>
+	<section>
+		<div id="novidades">
+			<div class="nov-left"> 
+				<div id="novTiE" class="text-novidades"></div>
+				<div class="img-novidades"> 
+					<div class="img-lata">
+						<div id="novConE" class="container-tinta"></div>
+					</div>
+				</div>
+			</div>
+			<div class="nov-right">
+				<div id="texTop" class="text-top"></div>
+				<div id="textBottom" class="text-bottom"></div>
+			</div>
+		</div>
+	</section>
+	<!-- Rodapé (HTML sem JS) -->
+	<section>
+		<div id="newsletter">
+			<div class="seguraNews">
+				<div class="info-news">
+					<div class="title-news">
+						<h1>Assine nossa newsletter</h1>
+					</div>
+					<div class="text-news">
+						<p>Receba no seu e-mail nossas novidades</p>
+					</div>
+				</div>
+				<div class="news-email">
+					<input type="text" class="email" placeholder="E-mail">
+					<a href="https://www.weg.net/institutional/BR/pt/contact/contact-newsletter?email=&CSRFToken=38daf9f9-fa36-4619-83ac-8d4f310f2341">
+						<input type="button" class="assinar" value="ASSINAR">
+					</a>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<section>
+		<div id="rodape">
+			<div class="seguraItem">
+				<div class="titulos-coluna">
+					<h4>WEG S.A. - HEADQUARTERS</h4>
+				</div>
+				<div class="titulos-coluna">
+					<h4>Sobre a WEG</h4>
+				</div>
+				<div class="titulos-coluna">
+					<h4>Produtos</h4>
+				</div>
+				<div class="titulos-coluna">
+					<h4>Soluções</h4>
+				</div>
+				<div class="titulos-coluna">
+					<h4>Contato</h4>
+				</div>
+				<div class="titulos-coluna">
+					<h4>Central de Downloads</h4>
+				</div>
+			</div>
+			<div class="seguraColuna">
+				<div class="coluna">
+					<p>Av. Pref. Waldemar Grubba, 3000 - 89256-900 - Jaraguá do Sul - SC / Brasil</p>
+					<p>Telefone: +55 47 3276-4000</p>
+					<p>E-mail: info-br@weg.net</p>
+				</div>
+				<div class="coluna">
+					<a href="https://www.weg.net/institutional/BR/pt/this-is-weg"><p>Isto é a WEG</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/weg-in-numbers"><p>WEG em Números</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/history"></head><p>História</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/management"><p>Diretoria</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/weg-operations"><p>Operações WEG</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/technological-innovation"><p>Inovação Tecnológica</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/sustainability"><p>Sustentabilidade</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/our-business"><p>Nossos Negócios</p></a>
+					<a href="https://www.weg.net/institutional/BR/pt/certifications"><p>Certificações</p></a>
+				</div>
+				<div class="coluna">
+					<a href="/catalog/weg/BR/pt/c/BR_MT"><p>Motores Elétricos</p></a>
+					<a href="/catalog/weg/BR/pt/c/BR_GEARBOXES"><p>Motorredutores</p></a>
+					<a href="/catalog/weg/BR/pt/c/GLOBAL_GTD"><p>Geração, Transmissão e Distribuição</p></a>
+					<a href="/catalog/weg/BR/pt/c/BR_WDC_IA"><p>Automação e Controle Industrial</p></a>
+					<a href="/catalog/weg/BR/pt/c/BR_WDC_BT"><p>Building & Infrastructure</p></a>
+					<a href="/catalog/weg/BR/pt/c/BR_WDC_CP"><p>Critical Power</p></a>
+					<a href="/catalog/weg/BR/pt/c/BR_WDC_SFY"><p>Segurança de Máquinas e Sensores Industriais</p></a>
+					<a href="/catalog/weg/BR/pt/c/BR_WDC_EP"><p>Painéis Elétricos</p></a>
+					<a href="/catalog/weg/BR/pt/c/TV"><p>Tintas e Vernizes</p></a>
+					<a href="/catalog/weg/BR/pt/c/GLOBAL_SP"><p>Partes e Peças</p></a>
+					<a href="/catalog/weg/BR/pt/c/BR_SERVICE"><p>Serviços</p></a>
+				</div>
+				<div class="coluna">
+					<a href="/institutional/BR/pt/solutions/oil-gas"><p>Oil & Gas</p></a>
+					<a href="/institutional/BR/pt/solutions/digital-solutions"><p>WEG Digital Solutions</p></a>
+					<a href="/institutional/BR/pt/solutions/marine"><p>Naval</p></a>
+					<a href="/institutional/BR/pt/solutions/steel-industry"><p>Siderurgia</p></a>
+					<a href="/institutional/BR/pt/solutions/water"><p>Água</p></a>
+					<a href="/institutional/BR/pt/solutions/energy-efficiency"><p>Eficiência Energética</p></a>
+					<a href="/institutional/BR/pt/solutions/energy"><p>Energia</p></a>
+					<a href="/institutional/BR/pt/solutions/farming-and-agriculture"><p>Agronegócio</p></a>
+					<a href="/institutional/BR/pt/solutions/civil-construction"><p>Construção Civil</p></a>
+					<a href="/institutional/BR/pt/solutions/sugar-ethanol"><p>Açúcar & Etanol</p></a>
+					<a href="/institutional/BR/pt/solutions/mining"><p>Mineração</p></a>
+					<a href="/institutional/BR/pt/solutions/pulp-paper"><p>Papel & Celulose</p></a>
+					<a href="/institutional/BR/pt/solutions/electric-vehicles"><p>Tração Elétrica</p></a>
+					<a href="/institutional/BR/pt/solutions/solar-energy"><p>Energia Solar</p></a>
+					<a href="/institutional/BR/pt/solutions/smart-grid"><p>Smart Grid</p></a>
+				</div>
+				<div class="coluna">
+					<a href="/institutional/BR/pt/contact/contact-us"><p>Fale Conosco</p></a>
+					<a href="/institutional/BR/pt/contact/where-to-buy"><p>Onde Comprar</p></a>
+					<a href="/institutional/BR/pt/contact/service-network"><p>Assistência Técnica</p></a>
+					<a href="/institutional/BR/pt/contact/faq"><p>FAQ</p></a>
+					<a href="/institutional/BR/pt/contact/violation-of-the-code-of-ethics"><p>Violação do Código de Ética</p></a>
+				</div>
+				<div class="coluna">
+					<a href="http://ecatalog.weg.net/drawings_2d_3d/index.asp?empresa=WMO&language=POR"><p>Biblioteca CAD - Motores Elétricos</p></a>
+					<a href="http://ecatalog.weg.net/drawings_2d_3d/index.asp?empresa=WA&language=POR"><p>Biblioteca CAD - Automação</p></a>
+					<p>Necessita de outros materiais? Acesse nossa central de downloads abaixo.</p>
+				</div>
+			</div>
+			<div class="grid">
+				<figure>
+					<img src="IMG/grid_weg.png">
+				</figure>
+			</div>
+			<div class="social">
+				<div class="buttons-social"></div>
+				<div class="buttons-social"></div>
+				<div class="buttons-social"></div>
+				<div class="buttons-social"></div>
+			</div>
+		</div>
+	</section>
+	<div class="info-final">
+		<h3>Política de Privacidade | Declaração de Uso de Cookies | Termos e Condições de Uso | RSS | © 2020 WEG. Todos os direitos reservados.</h3>
+	</div>
+	<script type="text/javascript">exibeFuncao();</script> 
+</body>
+</html>

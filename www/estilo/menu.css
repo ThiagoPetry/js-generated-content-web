@@ -1,0 +1,486 @@
+/* CSS Menu + Banner + Roleta */
+body {
+	background-color: white;
+	margin: 0 auto;
+	cursor: default;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a, span, input {
+	cursor: pointer;
+}
+ul, li {
+	list-style: none;
+	display: inline;
+}
+h1, h2, h3, h4, p, input, span, a {
+	font-family: Roboto, Sans-Serif;
+}
+
+/* ====== MENU ====== */
+#container-menu {
+	width: 100%;
+	height: 95px;
+	background-color: rgb(0, 0, 0, 0.4);
+	position: fixed;
+	z-index: 1;
+}
+.menu-left {
+	width: 50%;
+	height: 95px;
+}
+.logo {
+	width: 10%;
+	height: 48px;
+	background-image: url(../img/icon/weg_white.svg);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 15px 20px;
+}
+#menuEsq > li > a {
+	padding-top: 0px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 8px;
+	position: relative;
+}
+#menuEsq > li > a::before {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 15px;
+	left: 0;
+	margin-top: -22px;
+	position: absolute;
+	top: 50%;
+	background-color: gray;
+}
+#menuEsq > li:first-child > a::before {
+	display: none;
+}
+#menuDir > li > a {
+	padding-top: 0px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 8px;
+	position: relative;
+}
+#menuDir > li > a::before {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 15px;
+	left: 0;
+	margin-top: -22px;
+	position: absolute;
+	top: 50%;
+	background-color: gray;
+}
+#menuDir > li:last-child > a::before {
+	display: none;
+}
+.menuE {
+	width: 98%;
+	height: 80px;
+	float: left;
+	margin: 8px 0px;
+}
+.menuE .left {
+	font-size: 14px;
+}
+.left {
+	float: left;
+	margin-top: 30px;
+	padding-left: 8px;
+}
+.menu-right {
+	width: 45%;
+	height: 95px;
+	float: right;
+	margin-top: -95px;
+}
+.menuD {
+	width: 80%;
+	height: 40px;
+	float: right;
+}
+.menuD li {
+	float: right;
+}
+.menuD a {
+	float: right;
+	margin-top: 10px;
+	margin-right: 2px;
+	padding-right: 4px;
+}
+.menuD .right {
+	font-size: 0.75em;
+}
+.flag-right {
+	width: 22px;
+	height: 16px;
+	background-image: url(../IMG/flag.png);
+	float: right;
+	margin-right: 15px;
+}
+.share {
+	width: 60%;
+	height: 30px;
+	float: right;
+	margin-right: 2%;
+}
+.share input {
+	width: 90%;
+	height: 28px;
+	float: right;
+	border: 0px;
+}
+.share input:hover {
+	cursor: text;
+}
+.share button {
+	width: 10%;
+	height: 24px;
+	float: right;
+	margin-top: -28px;
+	margin-right: 2px;
+	border: 0px;
+	background-color: transparent;
+}
+
+/* ====== BANNER 1 ====== */
+#bannerweg1 {
+	background: url("../img/banner/BANNER_Drive_scan-HOME-WEG-1900x600px-A.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	display: block;
+}
+#bannerweg1 h1 {
+	font-size: 2.2em;
+}
+#bannerweg1 p {
+	margin-bottom: 25px;
+}
+#bannerweg1 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+
+/* ====== BANNER 2 ====== */
+#bannerweg2 {
+	background: url("../img/banner/BR-solar-rotating_banner2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	display: none;
+}
+#bannerweg2 h1 {
+	width: 80%;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#bannerweg2 p {
+	margin-bottom: 25px;
+}
+#bannerweg2 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+#bannerweg2 span:last-child {
+	margin-left: 5px;
+}
+
+/* ====== BANNER 3 ====== */
+#bannerweg3 {
+	background: url("../img/banner/banner_WMS_july-site-ok.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	display: none;
+}
+#bannerweg3 h1 {
+	width: 80%;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#bannerweg3 p {
+	margin-bottom: 25px;
+}
+#bannerweg3 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+
+/* ====== BANNER 4 ====== */
+#bannerweg4 {
+	background: url("../img/banner/equip.jfif");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	display: none;
+}
+#bannerweg4 h1 {
+	width: 80%;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#bannerweg4 p {
+	margin-bottom: 25px;
+}
+#bannerweg4 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+
+/* ====== BANNER 5 ====== */
+#bannerweg5 {
+	background: url("../img/banner/banner_W60_site.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1719px;
+	height: 600px;
+	position: relative;
+    left: -200px;
+	display: none;
+}
+#bannerweg5 h1 {
+	width: 80%;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#bannerweg5 p {
+	margin-bottom: 25px;
+}
+#bannerweg5 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+
+/* ====== BANNER 6 ====== */
+#bannerweg6 {
+	background: url("../img/banner/banner_weg_digital_home_1920x600.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	display: none;
+}
+#bannerweg6 h1 {
+	width: 80%;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#bannerweg6 p {
+	margin-bottom: 25px;
+}
+#bannerweg6 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+
+/* ====== BANNER 7 ====== */
+#bannerweg7 {
+	background: url("../img/banner/not.jfif");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	display: none;
+}
+#bannerweg7 h1 {
+	width: 80%;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#bannerweg7 p {
+	width: 90%;
+	margin-bottom: 25px;
+}
+#bannerweg7 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+
+/* ====== BANNER 8 ====== */
+#bannerweg8 {
+	background: url("../img/banner/eficiencia-energetica-banner-site.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	display: none;
+}
+#bannerweg8 h1 {
+	width: 90%;
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#bannerweg8 p {
+	margin-bottom: 25px;
+}
+#bannerweg8 span {
+	border: 2px solid white;
+	padding: 12px;
+}
+/* ====== CONFIGs BANNER ====== */
+.banners {
+	text-shadow: 1px 1px 2px #000;
+}
+.bannerGrade {
+	width: 100%;
+	height: 240px;
+	float: left;
+	margin-top: 220px;
+	color: white;
+}
+.container-banner-esq {
+	width: 40%;
+	height: 220px;
+	line-height: 1.6em;
+	float: left;
+	margin-top: 10px;
+	margin-left: 12%;
+}
+.container-banner-dir {
+	width: 40%;
+	height: 220px;
+	line-height: 1.6em;
+	float: left;
+	margin-top: 10px;
+	margin-left: 50%;
+}
+
+/* ====== BOTÃO TROCA BANNER ====== */
+#banner-btn {
+	width: 100%;
+	height: 11px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin-top: -25px;
+}
+.container-btns {
+	width: 270px;
+	height: 10px;
+	margin: 0 auto;
+}
+.btns {
+	width: 16px;
+	height: 10px;
+	background-color: white;	
+	border: 1px solid white;
+	float: left;
+	margin-left: 16px;
+}
+.btns:hover {
+	cursor: pointer;
+}
+
+/* ====== ROLETA ====== */
+#menu-produtos {
+	width: 100%;
+	height: 90px;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+#menu-produtos p {
+	margin-top: 30px;
+}
+.content {
+	width: 92%;
+	height: 90px;
+	margin: 0 auto;
+}
+.btnProd {
+	width: 23%;
+	height: 90px;
+	background-color: #0081a9; 
+	border-left: 1px solid #006f91;
+	float: left;
+	position: absolute;
+}
+#btnProd1 {
+	display: block;
+	margin-left: 0%;
+}
+#btnProd2 {
+	display: block;
+	margin-left: 23%;
+}
+#btnProd3 {
+	display: block;
+	margin-left: 46%;
+}
+#btnProd4 {
+	display: block;
+	margin-left: 69%;
+}
+#btnProd5 {
+	display: none;
+}
+#btnProd6 {
+	display: none;
+}
+#btnProd7 {
+	display: none;
+}
+#btnProd8 {
+	display: none;
+}
+#btnProd9 {
+	display: none;
+}
+#btnProd10 {
+	display: none;
+}
+#btnProd11 {
+	display: none;
+}
+.btnProd:hover {
+	background-color: #006f91;
+}
+#btnE {
+	width: 4%;
+	height: 90px;
+	background-color: #0081a9;
+	float: left;
+	border: 0px;
+	color: white;
+	font-weight: bold;
+}
+#btnD {
+	width: 4%;
+	height: 90px;
+	background-color: #0081a9;
+	float: right;
+	margin-top: -90px;
+	border: 0px;
+	color: white;
+	font-weight: bold;
+}
+#menu-produtos #btnE, #btnD {
+	cursor: pointer;
+}
+/* ====== FIM ====== */
